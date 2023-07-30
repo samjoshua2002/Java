@@ -11,6 +11,8 @@ public class demo {
             System.out.print(area);
         } else {
             System.out.println("java.lang.Exception: Breadth and height must be positive");
-        }
     }
+    sc.close();
+}
+   
 }

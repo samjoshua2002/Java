@@ -6,7 +6,7 @@ public class JavaLoop {
  
     public static void main(String[] args) {
         
-        Scanner sc=new Scanner(System.in);
+        Scanner sc =new Scanner(System.in);
         int q=sc.nextInt(),i,a,b,n;
         for(i=0;i<q;i++)
         {
@@ -21,5 +21,7 @@ public class JavaLoop {
             }
             System.out.println();
         }
+        sc.close();
     }
+    
 }
